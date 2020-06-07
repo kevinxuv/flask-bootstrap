@@ -2,7 +2,7 @@
 
 A cli tool to bootstrap your flask project in a few seconds.
 
-# Install
+## Install
 
 You can install this tool from this repo:
 
@@ -10,7 +10,7 @@ You can install this tool from this repo:
 $ pip3 install -e git+https://github.com/kevinxuv/flask-bootstrap
 ``` 
 
-# Usage
+## Usage
 
 After install, run `flask-boot` in your terminal or console:
 
