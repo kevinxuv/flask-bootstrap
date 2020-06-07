@@ -1,0 +1,6 @@
+
+import os
+
+CONFIG_PREFIX = os.environ.get('{{project_name}}'.upper() + '_CONFIG_PREFIX', '{{project_name}}'.upper())
+ENV = os.environ.get(f'{CONFIG_PREFIX}_ENV', 'production')
+DEBUG = os.environ.get(f'{CONFIG_PREFIX}_DEBUG', False)
