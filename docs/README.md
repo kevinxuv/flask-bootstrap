@@ -15,7 +15,7 @@ $ pip3 install -e git+https://github.com/kevinxuv/flask-bootstrap
 After install, run `flask-boot` in your terminal or console:
 
 ```commandline
-$ cd /tmp  # cd to your project workspace
+$ cd /tmp  # cd to your project's workspace
 $ flask-boot # run this cmd
 $ -> Give your flask project a name [unknown]: test
 $ -> Give a description for your flask project [none]: test

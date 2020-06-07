@@ -1,6 +1,6 @@
 # flask-bootstrap
 
-A cli tool to bootstrap your flask project in a few seconds.
+A cli tool to bootstrap your [flask](https://github.com/pallets/flask) project in a few seconds.
 
 # Install
 
@@ -15,7 +15,7 @@ $ pip3 install -e git+https://github.com/kevinxuv/flask-bootstrap
 After install, run `flask-boot` in your terminal or console:
 
 ```commandline
-$ cd /tmp  # cd to your project workspace
+$ cd /tmp  # cd to your project's workspace
 $ flask-boot # run this cmd
 $ -> Give your flask project a name [unknown]: test
 $ -> Give a description for your flask project [none]: test
@@ -50,4 +50,4 @@ $ * Debug mode: off
 $ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-Now, get ready to add more feature in your created flask project, have fun.
+Now, get ready to add more features in your created flask project, have fun.

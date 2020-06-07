@@ -17,7 +17,7 @@ def cli():
         '-> Give a description for your flask project', default='none', type=str)
     init_git = click.prompt('-> Init git or not?', default=False, type=bool)
     # venv = click.prompt('-> create virtualenv or not?', default=False, type=bool)
-    click.echo(click.style('Start to bootstrap project...', fg='blue', bold=True))
+    click.echo(click.style(f'Start to bootstrap project {name}...', fg='blue', bold=True))
     try:
         project_root_dir = bootstrap(name=name, description=description, init_git=init_git)
         click.echo(
