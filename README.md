@@ -1,3 +1,4 @@
+![Build Status](https://travis-ci.com/kevinxuv/flask-bootstrap.svg?branch=master)
 # flask-bootstrap
 
 A cli tool to bootstrap your [flask](https://github.com/pallets/flask) draft project in a few seconds.
