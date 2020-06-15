@@ -30,7 +30,7 @@ setup(
     install_requires=[
         'click',
         'jinja2',
-        'gitpython',
+        'GitPython',
         'virtualenv'
     ],
 )
