@@ -6,6 +6,8 @@ verify_ssl = true
 [dev-packages]
 pytest = "*"
 ipython = "*"
+codecov = "*"
+pytest-cov = "*"
 
 [packages]
 click = "*"
