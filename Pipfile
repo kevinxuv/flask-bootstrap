@@ -14,6 +14,7 @@ click = "*"
 jinja2 = "*"
 gitpython = "*"
 virtualenv = "*"
+flask-bootstrap = {path = "."}
 
 [requires]
 python_version = "3.8"

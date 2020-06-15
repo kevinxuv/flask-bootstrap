@@ -4,7 +4,7 @@ python:
   - "3.8"
 install:
   - pip install pipenv
-  - pipenv install
+  - pipenv install .
 scripts:
   - pipenv run pytest --cov-report term --cov=flask_bootstrap tests/
 after_success:
