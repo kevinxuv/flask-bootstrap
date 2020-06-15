@@ -5,6 +5,8 @@ python:
 install:
   - pip install pipenv
   - pipenv install .
+  - pipenv install pytest-cov
+  - pipenv install codecov
 scripts:
   - pipenv run pytest --cov-report term --cov=flask_bootstrap tests/
 after_success:
