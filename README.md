@@ -7,7 +7,7 @@ A cli tool to bootstrap your [flask](https://github.com/pallets/flask) draft pro
 You can install this tool by pip:
 
 ```commandline
-$ pip3 install -e git+https://github.com/kevinxuv/flask-bootstrap
+$ pip3 install git+https://github.com/kevinxuv/flask-bootstrap
 ``` 
 
 ## Usage
