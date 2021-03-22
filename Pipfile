@@ -11,7 +11,7 @@ pytest-cov = "*"
 
 [packages]
 click = "*"
-jinja2 = "*"
+jinja2 = "==2.11.3"
 gitpython = "*"
 virtualenv = "*"
 flask-bootstrap = {path = "."}
